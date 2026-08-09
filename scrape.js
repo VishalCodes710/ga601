@@ -3,16 +3,16 @@ const { chromium } = require('playwright');
 (async () => {
   // Replace these placeholders with the actual URLs from Seed 7 to 16
   const urls = [
-    'https://example.com/seed7',
-    'https://example.com/seed8',
-    'https://example.com/seed9',
-    'https://example.com/seed10',
-    'https://example.com/seed11',
-    'https://example.com/seed12',
-    'https://example.com/seed13',
-    'https://example.com/seed14',
-    'https://example.com/seed15',
-    'https://example.com/seed16'
+    'https://sanand0.github.io/tdsdata/js_table/?seed=7',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=8',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=9',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=10',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=11',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=12',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=13',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=14',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=15',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=16'
   ];
 
   let grandTotal = 0;
