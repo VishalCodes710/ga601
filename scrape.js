@@ -3,16 +3,16 @@ const { chromium } = require('playwright');
 (async () => {
   // Replace these placeholders with the actual URLs from Seed 7 to 16
   const urls = [
-    'https://sanand0.github.io/tdsdata/js_table/?seed=7',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=8',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=9',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=10',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=11',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=12',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=13',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=14',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=15',
-    'https://sanand0.github.io/tdsdata/js_table/?seed=16'
+    'https://sanand0.github.io/tdsdata/js_table/?seed=22',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=23',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=24',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=25',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=26',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=27',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=28',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=29',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=30',
+    'https://sanand0.github.io/tdsdata/js_table/?seed=31'
   ];
 
   let grandTotal = 0;
